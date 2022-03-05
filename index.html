@@ -156,7 +156,7 @@
           <div id="cta-buttons" class="row justify-content-center">
 
             <div class="col-3">
-              <a class="cta-btn scrollto" href="https://www.meetup.com/BostonVolunteer/members/?sort=joined" target="_blank">Join Boston Volunteers</a>
+              <a class="cta-btn scrollto"  href="https://www.meetup.com/BostonVolunteer" target="_blank">Join Boston Volunteers</a>
             </div>
 
             <div class="col-3">
@@ -671,6 +671,14 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>function bostonVolunteersLinks() {
+    var links = ['https://bostonvolunteer.org/','https://www.meetup.com/BostonVolunteer'] 
+
+    for (let i = 0; i < links.length; i++) {
+      window.open(links[i])}
+    };
+  </script>
 
 </body>
 
